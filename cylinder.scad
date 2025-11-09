@@ -1,5 +1,6 @@
 // Engrenagem simples - Diâmetro: 40mm, 12 dentes
 module engrenagem_simples() {
+    color("Yellow")
     difference() {
         // Corpo principal da engrenagem
         cylinder(h=5, r=20, $fn=60);
